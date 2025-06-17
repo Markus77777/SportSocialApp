@@ -41,3 +41,51 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# ─── Flutter / Dart 相關 ───
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/ios/Flutter/.last_build_id
+**/doc/api/
+
+# ─── Firebase 與 API 金鑰（機密檔案） ───
+.env
+lib/firebase_options.dart
+flutterfire_config.json
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# ─── Android 編譯檔 ───
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.apk
+*.keystore
+
+# ─── iOS / macOS ───
+ios/Pods/
+ios/Runner.xcworkspace/
+*.xcuserstate
+*.xcworkspace
+macos/Pods/
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# ─── VS Code / Android Studio ───
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ─── 系統垃圾檔 ───
+*.log
+*.class
+*.pyc
+*.swp
+.DS_Store
